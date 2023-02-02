@@ -1,0 +1,33 @@
+Creating  a New Database
+CREATE DATABASE Tutorial
+
+
+Table 1 Query:
+CREATE TABLE StudentDemographics
+(StudentID int,
+FirstName varchar(50),
+LastName varchar(50),
+Age int,
+Gender varchar(50)
+)
+
+Table 2 Query:
+CREATE TABLE StudentIncome 
+(StudentID int, 
+JobTitle varchar(50), 
+Income int
+)
+
+
+
+Table 1 Insert:
+INSERT INTO StudentDemographics VALUES
+(1001, 'John', 'Ekwere', 33, 'Male'),
+(1002, 'Abdulazeez', 'Momoh', 30, 'Male'),
+--- Add yours to fill up database ---
+
+Table 2 Insert:
+INSERT INTO StudentIncome  VALUES
+(1001, 'Data Analyst', 45000),
+(1002, 'Data Analyst', 48000),
+--- Add Yours --
